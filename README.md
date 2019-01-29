@@ -64,11 +64,46 @@ Note: This is your opportunity to show your JS skills. Try over-engineering! Use
 
 ## Goal 3
 
-Create sidebar which contains : 
+Suppose you have an article. Now you need to prepare the a table of content using Material-UI like this link: https://material-ui.com/demos/grid-list/
 
 ```
-Recommended hotel(s).
+JSON for Table of contents.
 ```
+```
+"tableOfContent": [
+{
+"text": "Introduction of the article",
+"link": "introduction",
+"order": 0
+},
+{
+"text": "Indulge in an outdoor spa experience: SAARAH Day Spa/Tea Spa by SAARAH",
+"link": 1,
+"order": 1
+},
+{
+"text": "Slide in a bathtub filled with rose petals: Qorinah Day Spa",
+"link": 2,
+"order": 2
+},
+{
+"text": "Value-for-money quality spa packages with 7 treatments!: Jogja Traditional Treatment Spa",
+"link": 3,
+"order": 3
+},
+{
+"text": "It’s so exclusive, they only welcome 4 guests at a time!: Monggo Relax Spa",
+"link": 4,
+"order": 4
+},
+{
+"text": "Summary",
+"link": "summary",
+"order": 5
+}
+]
+```
+
 * If user does not select any hotel as favourite, recommended hotels will be empty.
 * If user selects any hotel as favourite, recommended hotels would be those hotels that have same features but cheaper.
 * Send a push notification to browser if you find any recommended hotel.
