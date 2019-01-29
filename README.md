@@ -104,12 +104,6 @@ JSON for Table of contents.
 ]
 ```
 
-* If user does not select any hotel as favourite, recommended hotels will be empty.
-* If user selects any hotel as favourite, recommended hotels would be those hotels that have same features but cheaper.
-* Send a push notification to browser if you find any recommended hotel.
-
-Be aware that if you change any input it should change the recommended hotel accordingly 
-
 ## Goal 4
 Last but not the least, testing! You can follow TDD or FDD!
 
